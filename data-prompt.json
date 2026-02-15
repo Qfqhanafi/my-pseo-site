@@ -1,0 +1,141 @@
+[
+  {
+    "slug": "animasi-karakter-3d",
+    "title": "Prompt AI Animasi Karakter 3D",
+    "category": "Animasi",
+    "isi_prompt": "Buatlah animasi karakter 3D bergaya Pixar yang sedang berjalan di hutan..."
+  },
+  {
+    "slug": "coding-python-excel",
+    "title": "Prompt AI Python untuk Otomasi Excel",
+    "category": "Coding",
+    "isi_prompt": "Tolong buatkan script Python untuk menggabungkan 10 file Excel menjadi satu..."
+  },
+  {
+    "slug": "edit-foto-cinematic",
+    "title": "Prompt AI Edit Foto Cinematic",
+    "category": "Editing",
+    "isi_prompt": "Berikan pengaturan color grading cinematic untuk foto pemandangan malam hari..."
+  },
+  {
+    "slug": "prompt-python-clean-architecture-api",
+    "title": "Generate REST API dengan Clean Architecture (Python)",
+    "category": "Python",
+    "isi_prompt": "Buatkan contoh REST API menggunakan Python (FastAPI) dengan konsep Clean Architecture. Pisahkan folder menjadi entity, usecase, repository, dan controller. Sertakan contoh endpoint CRUD dan koneksi ke PostgreSQL."
+  },
+  {
+    "slug": "prompt-javascript-debounce-throttle",
+    "title": "Implementasi Debounce & Throttle di JavaScript",
+    "category": "JavaScript",
+    "isi_prompt": "Jelaskan perbedaan debounce dan throttle di JavaScript. Berikan contoh implementasi keduanya tanpa library, serta contoh penggunaan pada event scroll dan input search."
+  },
+  {
+    "slug": "prompt-css-responsive-navbar-flexbox",
+    "title": "Responsive Navbar dengan Flexbox",
+    "category": "CSS",
+    "isi_prompt": "Buatkan contoh navbar responsive menggunakan HTML dan CSS (Flexbox). Tambahkan fitur hamburger menu untuk tampilan mobile tanpa menggunakan framework."
+  },
+  {
+    "slug": "prompt-sql-query-optimasi-index",
+    "title": "Optimasi Query SQL dengan Index",
+    "category": "SQL",
+    "isi_prompt": "Berikan contoh query SQL yang lambat dan cara mengoptimalkannya menggunakan index. Jelaskan cara membaca EXPLAIN plan pada MySQL."
+  },
+  {
+    "slug": "prompt-php-authentication-mvc",
+    "title": "Sistem Login MVC Native PHP",
+    "category": "PHP",
+    "isi_prompt": "Buatkan contoh sistem login sederhana menggunakan PHP native dengan konsep MVC. Sertakan validasi, hashing password, dan proteksi CSRF."
+  },
+  {
+    "slug": "prompt-java-springboot-crud-jpa",
+    "title": "CRUD Spring Boot dengan JPA",
+    "category": "Java",
+    "isi_prompt": "Buatkan contoh aplikasi CRUD sederhana menggunakan Spring Boot dan JPA. Sertakan entity, repository, service, dan controller untuk manajemen data produk."
+  },
+  {
+    "slug": "prompt-nodejs-express-jwt-auth",
+    "title": "JWT Authentication dengan Express.js",
+    "category": "Node.js",
+    "isi_prompt": "Buatkan sistem autentikasi menggunakan Node.js dan Express dengan JWT. Sertakan middleware untuk proteksi route dan contoh refresh token."
+  },
+  {
+    "slug": "prompt-react-form-validation-hooks",
+    "title": "Form Validation React Hooks",
+    "category": "React",
+    "isi_prompt": "Buatkan contoh form registrasi di React menggunakan Hooks dan validasi custom tanpa library tambahan. Tampilkan pesan error dinamis."
+  },
+  {
+    "slug": "prompt-laravel-rest-api-resource",
+    "title": "Laravel REST API dengan Resource",
+    "category": "Laravel",
+    "isi_prompt": "Buatkan REST API menggunakan Laravel dengan Resource dan API authentication (Sanctum). Sertakan contoh endpoint CRUD untuk data user."
+  },
+  {
+    "slug": "prompt-python-data-analysis-pandas",
+    "title": "Analisis Data CSV dengan Pandas",
+    "category": "Python",
+    "isi_prompt": "Berikan contoh analisis data menggunakan Python dan Pandas. Import file CSV, lakukan filtering, agregasi, dan visualisasi sederhana menggunakan matplotlib."
+  },
+  {
+    "slug": "prompt-typescript-interface-vs-type",
+    "title": "Perbedaan Interface dan Type di TypeScript",
+    "category": "TypeScript",
+    "isi_prompt": "Jelaskan perbedaan antara interface dan type di TypeScript. Berikan contoh kasus penggunaan masing-masing dan best practice dalam proyek skala besar."
+  },
+  {
+    "slug": "prompt-mongodb-aggregation-pipeline",
+    "title": "MongoDB Aggregation Pipeline",
+    "category": "MongoDB",
+    "isi_prompt": "Berikan contoh penggunaan aggregation pipeline di MongoDB untuk menghitung total penjualan per bulan dan menampilkan 5 produk terlaris."
+  },
+  {
+    "slug": "prompt-dockerize-nodejs-app",
+    "title": "Dockerize Aplikasi Node.js",
+    "category": "DevOps",
+    "isi_prompt": "Buatkan Dockerfile untuk aplikasi Node.js dan jelaskan cara menjalankannya menggunakan docker-compose dengan database PostgreSQL."
+  },
+  {
+    "slug": "prompt-git-workflow-feature-branch",
+    "title": "Git Workflow Feature Branch",
+    "category": "Git",
+    "isi_prompt": "Jelaskan alur Git workflow menggunakan metode feature branch. Sertakan contoh perintah git untuk membuat branch, merge, dan resolve conflict."
+  },
+  {
+    "slug": "prompt-css-grid-dashboard-layout",
+    "title": "Layout Dashboard dengan CSS Grid",
+    "category": "CSS",
+    "isi_prompt": "Buatkan contoh layout dashboard admin menggunakan CSS Grid. Sertakan sidebar, header, dan konten utama yang responsif."
+  },
+  {
+    "slug": "prompt-sql-normalisasi-database",
+    "title": "Normalisasi Database hingga 3NF",
+    "category": "SQL",
+    "isi_prompt": "Berikan contoh studi kasus tabel penjualan yang belum normal. Lakukan normalisasi hingga Third Normal Form (3NF) dan jelaskan setiap tahapnya."
+  },
+  {
+    "slug": "prompt-python-asyncio-concurrency",
+    "title": "Concurrency dengan Asyncio",
+    "category": "Python",
+    "isi_prompt": "Jelaskan konsep asynchronous programming di Python menggunakan asyncio. Berikan contoh menjalankan beberapa task secara concurrent."
+  },
+  {
+    "slug": "prompt-nextjs-ssr-vs-ssg",
+    "title": "SSR vs SSG di Next.js",
+    "category": "Next.js",
+    "isi_prompt": "Jelaskan perbedaan Server Side Rendering (SSR) dan Static Site Generation (SSG) di Next.js. Berikan contoh implementasi masing-masing."
+  },
+  {
+    "slug": "prompt-csharp-webapi-entityframework",
+    "title": "ASP.NET Web API dengan Entity Framework",
+    "category": "C#",
+    "isi_prompt": "Buatkan contoh ASP.NET Core Web API dengan Entity Framework Core untuk CRUD data pelanggan. Sertakan konfigurasi DbContext dan migration."
+  },
+  {
+    "slug": "prompt-security-owasp-top10",
+    "title": "Mitigasi OWASP Top 10",
+    "category": "Security",
+    "isi_prompt": "Jelaskan OWASP Top 10 terbaru dan berikan contoh mitigasi untuk SQL Injection, XSS, dan Broken Authentication pada aplikasi web."
+  }
+
+]
