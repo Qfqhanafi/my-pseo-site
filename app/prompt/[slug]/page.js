@@ -1,4 +1,4 @@
-import dataPrompts from '../../../data-prompt.json';
+import dataPrompts from '../../../../data-prompt.json';
 import { notFound } from 'next/navigation';
 
 export default async function Page({ params }) {
