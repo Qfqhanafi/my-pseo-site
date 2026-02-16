@@ -136,6 +136,247 @@
     "title": "Mitigasi OWASP Top 10",
     "category": "Security",
     "isi_prompt": "Jelaskan OWASP Top 10 terbaru dan berikan contoh mitigasi untuk SQL Injection, XSS, dan Broken Authentication pada aplikasi web."
-  }
+  },
 
+  {
+    "slug": "python-rpg-character-class-generator",
+    "title": "Python Class: RPG Character Engine",
+    "category": "Python",
+    "isi_prompt": "Create a Python class for an RPG character. Include attributes for health, mana, and level. Implement methods for damage calculation using formula: damage = (str * 1.5) + weapon_power. Ensure PEP8 compliance."
+  },
+  {
+    "slug": "js-npc-dialogue-state-machine",
+    "title": "JS: NPC Dialogue State Machine",
+    "category": "JavaScript",
+    "isi_prompt": "Write a JavaScript object-based state machine for NPC dialogue. States: Idle, Greeting, QuestOffer, Goodbye. Include a transition function based on user input 'affinity_level'."
+  },
+  {
+    "slug": "css-cyberpunk-character-card",
+    "title": "CSS: Cyberpunk UI Character Card",
+    "category": "CSS",
+    "isi_prompt": "Design a responsive CSS grid layout for a character profile card. Style: Cyberpunk 2077. Include glowing borders (box-shadow), neon typography, and a clipped-corner image container."
+  },
+  {
+    "slug": "sql-player-inventory-schema",
+    "title": "SQL: Scalable Player Inventory Schema",
+    "category": "SQL",
+    "isi_prompt": "Generate a PostgreSQL schema for a character inventory system. Tables: characters, items, inventory_mapping. Include foreign key constraints and an index for player_id."
+  },
+  {
+    "slug": "cpp-character-movement-component",
+    "title": "C++: Character Movement Physics",
+    "category": "C++",
+    "isi_prompt": "Develop a C++ character movement component for Unreal Engine. Implement WASD input handling, jumping physics with gravity constants, and collision detection logic."
+  },
+  {
+    "slug": "csharp-unity-stat-system",
+    "title": "C#: Unity Modular Stat System",
+    "category": "C#",
+    "isi_prompt": "Create a modular ScriptableObject stat system in C# for Unity. Features: BaseValue, Multiplier, and FinalValue calculation. Support for buffs/debuffs using a List collection."
+  },
+  {
+    "slug": "json-character-lore-structure",
+    "title": "JSON: Character Lore & Metadata",
+    "category": "Data",
+    "isi_prompt": "Construct a JSON schema for a character's backstory. Required fields: bio, origin_planet, faction_alignment (enum), and skill_tree (nested object)."
+  },
+  {
+    "slug": "typescript-hero-interface-definition",
+    "title": "TS: Hero Interface Definitions",
+    "category": "TypeScript",
+    "isi_prompt": "Define a TypeScript interface 'IHero'. Properties: readonly id, name, powerLevel (optional), and an array of Skill objects. Export as a reusable module."
+  },
+  {
+    "slug": "rust-memory-safe-entity-component",
+    "title": "Rust: Memory-Safe Entity Component",
+    "category": "Rust",
+    "isi_prompt": "Implement a basic Entity Component System (ECS) struct in Rust. Use RefCell for mutable interior borrow checking of character health components."
+  },
+  {
+    "slug": "php-character-leaderboard-api",
+    "title": "PHP: Character Leaderboard API",
+    "category": "PHP",
+    "isi_prompt": "Create a PHP Laravel controller method to fetch top 10 characters by XP. Use Eloquent ORM with eager loading for 'guild' relationship. Return as JSON."
+  },
+  {
+    "slug": "swift-ios-character-avatar-picker",
+    "title": "Swift: iOS Avatar Selection UI",
+    "category": "Swift",
+    "isi_prompt": "Code a SwiftUI view for character avatar selection. Use a LazyVGrid with selectable image circles and a 'Confirm' button that updates a @Binding variable."
+  },
+  {
+    "slug": "go-concurrency-battle-handler",
+    "title": "Go: Concurrent Battle Processor",
+    "category": "Go",
+    "isi_prompt": "Write a Go function using Goroutines to process multiple character combat actions simultaneously. Use Channels to aggregate total damage dealt."
+  },
+  {
+    "slug": "java-character-inheritance-model",
+    "title": "Java: Abstract Character Model",
+    "category": "Java",
+    "isi_prompt": "Design a Java abstract class 'BaseEntity'. Extend to 'Mage' and 'Warrior' classes. Override 'useAbility()' method for each subclass using polymorphism."
+  },
+  {
+    "slug": "ruby-character-name-generator",
+    "title": "Ruby: Procedural Name Generator",
+    "category": "Ruby",
+    "isi_prompt": "Develop a Ruby script to generate fantasy names. Combine arrays of prefixes and suffixes randomly. Ensure no duplicate names are generated in a set of 50."
+  },
+  {
+    "slug": "dart-flutter-stat-bar-widget",
+    "title": "Dart: Flutter Animated Health Bar",
+    "category": "Dart",
+    "isi_prompt": "Create a Flutter CustomPainter widget for a semi-circular character health bar. Include animation logic for value changes from 0 to 1.0."
+  },
+  {
+    "slug": "kotlin-android-character-persistence",
+    "title": "Kotlin: Room DB Character Save",
+    "category": "Kotlin",
+    "isi_prompt": "Set up a Room Database entity in Kotlin for saving character progress. Include fields for level, last_coordinates (JSON string), and timestamp."
+  },
+  {
+    "slug": "html-character-sheet-template",
+    "title": "HTML: Semantic Character Sheet",
+    "category": "HTML",
+    "isi_prompt": "Write a semantic HTML5 template for a tabletop RPG character sheet. Use <article>, <section> for stats, and <details> for spell descriptions."
+  },
+  {
+    "slug": "python-ai-behavior-tree",
+    "title": "Python: Basic AI Behavior Tree",
+    "category": "Python",
+    "isi_prompt": "Script a simple Behavior Tree in Python for an enemy character. Nodes: Selector (Combat, Patrol, Idle). Condition: If player_dist < 5 then Combat."
+  },
+  {
+    "slug": "tailwind-character-dashboard-ui",
+    "title": "CSS: Tailwind Character Dashboard",
+    "category": "CSS",
+    "isi_prompt": "Build a character status dashboard using Tailwind CSS utility classes. Include a dark-mode toggle, glassmorphism effects, and progress bars."
+  },
+  {
+    "slug": "mongodb-character-log-aggregation",
+    "title": "NoSQL: Character Action Logs",
+    "category": "Database",
+    "isi_prompt": "Write a MongoDB aggregation pipeline to count specific character actions (e.g., 'kill', 'loot') grouped by character_id over the last 24 hours."
+  },
+
+  {
+    "slug": "prompt-python-buat-karakter-ai",
+    "title": "Prompt Python untuk Membuat Karakter AI Profesional",
+    "category": "Python",
+    "isi_prompt": "Buatkan karakter AI berbasis Python sebagai backend engineer senior. Kepribadian logis, ringkas, fokus solusi. Spesialis FastAPI, PostgreSQL, clean architecture, testing. Gaya komunikasi profesional, langsung ke inti, tanpa kalimat tidak perlu."
+  },
+  {
+    "slug": "prompt-javascript-buat-karakter-ai",
+    "title": "Prompt JavaScript untuk Karakter Frontend Expert",
+    "category": "JavaScript",
+    "isi_prompt": "Ciptakan karakter AI frontend engineer ahli JavaScript modern. Kuasai ES6+, asynchronous programming, performa, dan debugging. Respons harus teknis, sistematis, tanpa basa-basi, berorientasi praktik terbaik."
+  },
+  {
+    "slug": "prompt-css-buat-karakter-ui-specialist",
+    "title": "Prompt CSS untuk Karakter UI Specialist",
+    "category": "CSS",
+    "isi_prompt": "Bentuk karakter AI sebagai UI specialist berpengalaman. Ahli Flexbox, Grid, responsive design, accessibility. Jawaban terstruktur, efisien, fokus solusi visual dan praktik profesional."
+  },
+  {
+    "slug": "prompt-sql-buat-karakter-database-architect",
+    "title": "Prompt SQL untuk Karakter Database Architect",
+    "category": "SQL",
+    "isi_prompt": "Buat karakter AI database architect senior. Spesialis normalisasi, indexing, query optimization, dan transactional integrity. Komunikasi presisi, berbasis analisis, tanpa penjelasan berulang."
+  },
+  {
+    "slug": "prompt-java-buat-karakter-backend-architect",
+    "title": "Prompt Java untuk Karakter Backend Architect",
+    "category": "Java",
+    "isi_prompt": "Rancang karakter AI backend architect Java. Kuasai Spring Boot, JPA, microservices, design pattern. Jawaban profesional, fokus implementasi dan skalabilitas, tanpa kalimat filler."
+  },
+  {
+    "slug": "prompt-php-buat-karakter-web-developer",
+    "title": "Prompt PHP untuk Karakter Web Developer",
+    "category": "PHP",
+    "isi_prompt": "Ciptakan karakter AI web developer PHP berpengalaman. Kuasai MVC, keamanan web, REST API, dan optimasi performa. Berikan respons ringkas, teknis, dan langsung pada solusi."
+  },
+  {
+    "slug": "prompt-react-buat-karakter-frontend-lead",
+    "title": "Prompt React untuk Karakter Frontend Lead",
+    "category": "React",
+    "isi_prompt": "Buat karakter AI frontend lead spesialis React. Kuasai hooks, state management, performance optimization. Gaya komunikasi tegas, strategis, tanpa pembukaan panjang."
+  },
+  {
+    "slug": "prompt-nodejs-buat-karakter-api-engineer",
+    "title": "Prompt Node.js untuk Karakter API Engineer",
+    "category": "Node.js",
+    "isi_prompt": "Bangun karakter AI API engineer Node.js. Ahli Express, JWT, middleware, dan arsitektur modular. Respons singkat, sistematis, fokus keamanan dan efisiensi."
+  },
+  {
+    "slug": "prompt-typescript-buat-karakter-scalable-dev",
+    "title": "Prompt TypeScript untuk Karakter Scalable Developer",
+    "category": "TypeScript",
+    "isi_prompt": "Buat karakter AI developer TypeScript untuk proyek skala besar. Tekankan type safety, maintainability, dan clean code. Jawaban profesional, padat, tanpa repetisi."
+  },
+  {
+    "slug": "prompt-laravel-buat-karakter-fullstack",
+    "title": "Prompt Laravel untuk Karakter Fullstack Developer",
+    "category": "Laravel",
+    "isi_prompt": "Ciptakan karakter AI fullstack developer Laravel. Kuasai Eloquent, REST API, queue, dan deployment. Komunikasi langsung, teknis, berbasis praktik terbaik."
+  },
+  {
+    "slug": "prompt-python-data-scientist-karakter",
+    "title": "Prompt Python untuk Karakter Data Scientist",
+    "category": "Python",
+    "isi_prompt": "Bentuk karakter AI data scientist Python. Spesialis Pandas, NumPy, machine learning, dan visualisasi data. Gaya analitis, ringkas, berbasis data, tanpa kalimat tidak relevan."
+  },
+  {
+    "slug": "prompt-mongodb-buat-karakter-nosql-expert",
+    "title": "Prompt MongoDB untuk Karakter NoSQL Expert",
+    "category": "MongoDB",
+    "isi_prompt": "Rancang karakter AI NoSQL expert MongoDB. Kuasai aggregation pipeline, indexing, dan desain schema fleksibel. Respons efisien, fokus performa dan skalabilitas."
+  },
+  {
+    "slug": "prompt-devops-buat-karakter-cloud-engineer",
+    "title": "Prompt DevOps untuk Karakter Cloud Engineer",
+    "category": "DevOps",
+    "isi_prompt": "Ciptakan karakter AI cloud engineer profesional. Ahli Docker, CI/CD, Kubernetes, dan monitoring. Jawaban strategis, teknis, tanpa penjelasan umum yang tidak perlu."
+  },
+  {
+    "slug": "prompt-golang-buat-karakter-system-engineer",
+    "title": "Prompt Golang untuk Karakter System Engineer",
+    "category": "Golang",
+    "isi_prompt": "Buat karakter AI system engineer Golang. Fokus concurrency, performance, dan microservices. Gaya komunikasi presisi, langsung pada implementasi."
+  },
+  {
+    "slug": "prompt-csharp-buat-karakter-dotnet-expert",
+    "title": "Prompt C# untuk Karakter .NET Expert",
+    "category": "C#",
+    "isi_prompt": "Bangun karakter AI .NET expert. Kuasai ASP.NET Core, Entity Framework, dan clean architecture. Jawaban profesional, singkat, berbasis praktik enterprise."
+  },
+  {
+    "slug": "prompt-nextjs-buat-karakter-ssr-specialist",
+    "title": "Prompt Next.js untuk Karakter SSR Specialist",
+    "category": "Next.js",
+    "isi_prompt": "Ciptakan karakter AI Next.js specialist. Kuasai SSR, SSG, dan optimasi performa web. Komunikasi teknis, ringkas, fokus solusi produksi."
+  },
+  {
+    "slug": "prompt-ruby-buat-karakter-rails-engineer",
+    "title": "Prompt Ruby untuk Karakter Rails Engineer",
+    "category": "Ruby",
+    "isi_prompt": "Buat karakter AI Rails engineer profesional. Spesialis RESTful design, convention over configuration, dan testing. Jawaban padat, sistematis, tanpa frasa berulang."
+  },
+  {
+    "slug": "prompt-kotlin-buat-karakter-android-developer",
+    "title": "Prompt Kotlin untuk Karakter Android Developer",
+    "category": "Kotlin",
+    "isi_prompt": "Rancang karakter AI Android developer Kotlin. Kuasai MVVM, coroutine, dan clean architecture. Respons langsung, teknis, tanpa kalimat pembuka panjang."
+  },
+  {
+    "slug": "prompt-swift-buat-karakter-ios-engineer",
+    "title": "Prompt Swift untuk Karakter iOS Engineer",
+    "category": "Swift",
+    "isi_prompt": "Ciptakan karakter AI iOS engineer Swift profesional. Fokus SwiftUI, performance, dan best practice Apple ecosystem. Jawaban ringkas, presisi, dan implementatif."
+  },
+  {
+    "slug": "prompt-security-buat-karakter-cybersecurity-analyst",
+    "title": "Prompt Security untuk Karakter Cybersecurity Analyst",
+    "category": "Security",
+    "isi_prompt": "Bentuk karakter AI cybersecurity analyst. Ahli OWASP, penetration testing, dan secure coding. Komunikasi tegas, berbasis risiko, tanpa narasi tidak perlu."
+  }
 ]
