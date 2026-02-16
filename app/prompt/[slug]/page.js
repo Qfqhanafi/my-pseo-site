@@ -2,24 +2,25 @@ import dataPrompts from '../../../data-prompt.json';
 import { notFound } from 'next/navigation';
 
 export default async function Page({ params }) {
-  // Penting: Di Next.js 2026, params harus di-await
   const { slug } = await params;
-  
-  // Cari data di JSON yang slug-nya cocok dengan URL
   const data = dataPrompts.find((item) => item.slug === slug);
 
-  // Jika tidak ketemu, kasih halaman 404
-  if (!data) {
-    return notFound();
-  }
+  if (!data) return notFound();
 
   return (
-    <div style={{ padding: '40px', fontFamily: 'sans-serif' }}>
-      <h1 style={{ fontSize: '2rem', fontWeight: 'bold' }}>{data.title}</h1>
-      <p style={{ color: 'blue', fontWeight: 'bold' }}>Kategori: {data.category}</p>
-      <div style={{ background: '#f0f0f0', padding: '20px', marginTop: '20px', borderRadius: '8px' }}>
-        <code>{data.isi_prompt}</code>
+    <div className="max-w-3xl mx-auto p-10 font-sans bg-white min-h-screen">
+      <h1 className="text-3xl font-bold text-slate-900 mb-4">{data.title}</h1>
+      <p className="text-blue-600 font-bold mb-6">Kategori: {data.category}</p>
+      
+      <div className="bg-slate-100 p-6 rounded-lg border-2 border-dashed border-slate-300">
+        <p className="text-slate-800 leading-relaxed font-mono whitespace-pre-wrap">
+          {data.isi_prompt}
+        </p>
       </div>
+      
+      <Link href="/" className="inline-block mt-8 text-blue-600 hover:underline">
+        &larr; Kembali ke Daftar
+      </Link>
     </div>
   );
 }
