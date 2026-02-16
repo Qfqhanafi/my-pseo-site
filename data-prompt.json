@@ -137,7 +137,6 @@
     "category": "Security",
     "isi_prompt": "Jelaskan OWASP Top 10 terbaru dan berikan contoh mitigasi untuk SQL Injection, XSS, dan Broken Authentication pada aplikasi web."
   },
-
   {
     "slug": "python-rpg-character-class-generator",
     "title": "Python Class: RPG Character Engine",
@@ -258,7 +257,6 @@
     "category": "Database",
     "isi_prompt": "Write a MongoDB aggregation pipeline to count specific character actions (e.g., 'kill', 'loot') grouped by character_id over the last 24 hours."
   },
-
   {
     "slug": "prompt-python-buat-karakter-ai",
     "title": "Prompt Python untuk Membuat Karakter AI Profesional",
